@@ -4,6 +4,9 @@ import tictactoe.entities.Board;
 import tictactoe.entities.GameSystem;
 import tictactoe.entities.Player;
 import tictactoe.enums.Symbol;
+import tictactoe.states.DrawState;
+import tictactoe.states.XWinsState;
+import tictactoe.states.YWinsState;
 
 import java.util.Scanner;
 
@@ -23,10 +26,10 @@ public class Client {
                 int x = sc.nextInt();
                 int y = sc.nextInt();
                 gameSystem.makeMove(x, y);
-                if (gameSystem.getGame().getWinner() != null) {
+                if (gameSystem.getGame().getGameState() instanceof XWinsState || gameSystem.getGame().getGameState() instanceof YWinsState) {
                     System.out.println(gameSystem.getGame().getWinner().getName() + " wins");
                     break;
-                } else if (gameSystem.getGame().getBoard().isFull()) {
+                } else if (gameSystem.getGame().getGameState() instanceof DrawState) {
                     System.out.println("Draw ");
                     break;
                 }
