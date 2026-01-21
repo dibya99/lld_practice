@@ -18,3 +18,12 @@ Tried implementing Tic Tac Toe
 Entities: GameSystem, Game, Board, Player, Symbol
 Strategy: Winning Strategy to check if a player won
 State : GameState to check the possible siutations like DRAW, or X wins or Y wins
+Singelton: For the system
+
+# vending machine
+
+Tried implementing Vending Machine
+
+Entities : VendingMachine, Coin, Item, Inventory, VendingMachineState, Exceptions, different states
+State Design Pattern : To define a finite state machine
+Singleton : For the vending machine system
