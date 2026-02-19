@@ -27,3 +27,12 @@ Tried implementing Vending Machine
 Entities : VendingMachine, Coin, Item, Inventory, VendingMachineState, Exceptions, different states
 State Design Pattern : To define a finite state machine
 Singleton : For the vending machine system
+
+# elevator system
+
+Tried implementing Elevator System
+
+Observer to observe elevators
+State to control elevator state
+Singleton for the elevator controller system
+Strategy to find nearest elevator
