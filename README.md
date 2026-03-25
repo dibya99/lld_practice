@@ -36,3 +36,15 @@ Observer to observe elevators
 State to control elevator state
 Singleton for the elevator controller system
 Strategy to find nearest elevator
+
+# coffee vending machine
+
+Tried implementing coffee vending machine
+
+Factory for coffee types
+Singleton for inventory and vendingmachine
+State to control vendingmachine state
+Decorator for extra toppings
+Also used template method in coffee prep steps
+
+Generated test cases from chat gpt
