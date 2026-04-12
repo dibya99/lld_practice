@@ -48,3 +48,8 @@ Decorator for extra toppings
 Also used template method in coffee prep steps
 
 Generated test cases from chat gpt
+
+# LRU Cache
+
+Wrote lrucache using doublely linked list implementation
+generated test cases from chat gpt
