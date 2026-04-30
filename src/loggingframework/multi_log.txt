@@ -1,0 +1,1 @@
+[2026-04-30 22:36:07] [main] [DEBUG] [multi.test] - This should go to console + file

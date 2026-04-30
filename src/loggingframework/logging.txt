@@ -1,0 +1,179 @@
+[2026-04-30 22:33:05] [main] [DEBUG] [root] - This should go to file + console
+[2026-04-30 22:33:05] [main] [ERROR] [root] - This SHOULD print
+[2026-04-30 22:33:06] [main] [ERROR] [com.oracle.component] - Child logger error (should propagate to root)
+[2026-04-30 22:33:07] [main] [ERROR] [a.b.c.d.e] - Deep hierarchy log
+[2026-04-30 22:36:06] [main] [DEBUG] [root] - This should go to file + console
+[2026-04-30 22:36:06] [main] [ERROR] [root] - This SHOULD print
+[2026-04-30 22:36:06] [main] [ERROR] [com.oracle.component] - Child logger error (should propagate to root)
+[2026-04-30 22:36:07] [main] [DEBUG] [multi.test] - This should go to console + file
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 0
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 1
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 2
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 3
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 4
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 5
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 6
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 7
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 8
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 9
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 10
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 11
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 12
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 13
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 14
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 15
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 16
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 17
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 18
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 19
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 20
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 21
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 22
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 23
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 24
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 25
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 26
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 27
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 28
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 29
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 30
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 31
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 32
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 33
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 34
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 35
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 36
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 37
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 38
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 39
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 40
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 41
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 42
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 43
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 44
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 45
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 46
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 47
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 48
+[2026-04-30 22:36:07] [main] [DEBUG] [async.test] - Log message 49
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 0
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 0
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 1
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 1
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 2
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 2
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 3
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 3
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 4
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 4
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 5
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 5
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 6
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 6
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 7
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 7
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 8
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 8
+[2026-04-30 22:36:07] [T2] [DEBUG] [thread.test] - Thread: T2 -> 9
+[2026-04-30 22:36:07] [T1] [DEBUG] [thread.test] - Thread: T1 -> 9
+[2026-04-30 22:36:08] [main] [ERROR] [a.b.c.d.e] - Deep hierarchy log
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 0
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 1
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 2
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 3
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 4
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 5
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 6
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 7
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 8
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 9
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 10
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 11
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 12
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 13
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 14
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 15
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 16
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 17
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 18
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 19
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 20
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 21
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 22
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 23
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 24
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 25
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 26
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 27
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 28
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 29
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 30
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 31
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 32
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 33
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 34
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 35
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 36
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 37
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 38
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 39
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 40
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 41
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 42
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 43
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 44
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 45
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 46
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 47
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 48
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 49
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 50
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 51
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 52
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 53
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 54
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 55
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 56
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 57
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 58
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 59
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 60
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 61
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 62
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 63
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 64
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 65
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 66
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 67
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 68
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 69
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 70
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 71
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 72
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 73
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 74
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 75
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 76
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 77
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 78
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 79
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 80
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 81
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 82
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 83
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 84
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 85
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 86
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 87
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 88
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 89
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 90
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 91
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 92
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 93
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 94
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 95
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 96
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 97
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 98
+[2026-04-30 22:36:08] [main] [DEBUG] [root] - Burst log 99

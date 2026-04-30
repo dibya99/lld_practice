@@ -55,3 +55,7 @@ Wrote lrucache using doublely linked list implementation
 generated test cases from chat gpt
 
 # Logging Framework
+
+Used executor service to make it thread safe
+Used singleton for manager
+Used strategy for different formatters and appenders
